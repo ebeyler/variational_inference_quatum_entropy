@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "quant_inf"
+version = "0.0.1"
+authors = [
+  { name="Eliot Beyler"},
+  { name="Francis Bach"}
+]
+description = "Implement the methods presented in 'Variational Inference on the Boolean Hypercube with the Quantum Entropy'"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy>=2.1,<2.2",
+  "scipy>=1.14,<1.15",
+  "cvxpy>=1.5,<1.6"
+]
+
+[project.optional-dependencies]
+exp = [
+  'seaborn>=0.13,<0.14',
+  'matplotlib>=3.9,<3.10',
+  'pandas>=2.2,<2.3',
+  'tqdm>=4.66,<4.67',
+  'jupyter>=1.1,<1.2'
+]
