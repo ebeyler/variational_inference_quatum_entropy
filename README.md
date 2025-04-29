@@ -1,6 +1,6 @@
 # Variational Inference on the Boolean Hypercube with the Quantum Entropy
 
-Code associated with the paper "Variational Inference on the Boolean Hypercube with the Quantum Entropy".
+Code associated with the paper [Variational Inference on the Boolean Hypercube with the Quantum Entropy](https://proceedings.mlr.press/v258/beyler25a.html).
 
 ## Installation
 
@@ -58,3 +58,13 @@ print(quantum_inference.log_partition)
 [1] Michael Jordan and Martin J Wainwright. “Semidefinite Relaxations for Approximate Inference on Graphs with Cycles”. In: Advances in Neural Information Processing Systems. Vol. 16. MIT Press, 2003.
 
 [2] M.J. Wainwright, T.S. Jaakkola, and A.S. Willsky. “A New Class of Upper Bounds on the Log Partition Function”. In: IEEE Transactions on Information Theory 51.7 (July 2005), pp. 2313–2335.
+
+## Cite
+````
+@inproceedings{beyler2025variational,
+  title = {Variational Inference on the Boolean Hypercube with the Quantum Entropy},
+  author = {Beyler, Eliot and Bach, Francis},
+  booktitle = {Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},
+  year = {2025}
+  }
+````
